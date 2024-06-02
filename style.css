@@ -18,6 +18,15 @@
     font-family: inter;
     font-size: x-small;
     flex-direction: column;
+    .contains {
+        background: url('headerImg.png');
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .firstSet {
@@ -35,6 +44,7 @@
         .headingTextOne {
             color: #fff;
             height: 60px;
+            width: 80%;
         }
 
         .ratingTextOne {
